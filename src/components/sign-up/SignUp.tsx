@@ -98,10 +98,7 @@ const SignUp: React.FC = () => {
                     )}
                     <label className='shrink form-input-label'>Confirm Password</label>
                 </div>
-                <div className='buttons'>
                     <button className='custom-button' type="submit">Sign Up</button>
-                    {/* <button className='custom-button google-sign-in' onClick={signInWithGoogle}>Sign in with Google</button> */}
-                </div>
             </form>
         </div>
     );
